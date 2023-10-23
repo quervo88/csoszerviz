@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+
+<pre>
+osszeg = 0
+    
+for i in range(3):
+    hiany = int(input(f"Add meg a(z) {i+1}. havi hiányt: "))
+    osszeg += hiany
+    
+atlag = osszeg/3
+    
+if atlag > 1000:
+    print(f"A hiány mértéke {int(atlag)}, ez túl nagy.")
+else:
+    print(f"A hiány mértéke {int(atlag)}, ez tűrhető.")
+</pre>
